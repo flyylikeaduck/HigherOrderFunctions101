@@ -22,15 +22,16 @@ console.log(myPoints); //15
 ### The ever useful "loop" (HOF)
 
 * [x] Create a higher order function (HOF) called "loop" that takes in two arguments "collection" and "callback".
-	"loop" : contains a for loop which passes in each element of "collection" into the "callback" function.
-	"collection" : represents a list or `array` passed in to manipulate.
-	"callback" : is the function which does the manipulation.
+-	"loop" : contains a for loop which passes in each element of "collection" into the "callback" function.
+-	"collection" : represents a list or `array` passed in to manipulate.
+-	"callback" : is the function which does the manipulation.
 
 -
 
+_Since we are learning "Higher Order Functions", I challenge you to use the "loop" function created for you for this and all of the following functions._
+
 * [ ] create a function named "groceryList" which takes in an `array` (your shopping list), and invokes `console.log` on each item in the list.
 
-_Since we are learning "Higher Order Functions", I challenge you to use the "loop" function created for you for this and the following functions._
 
 _Hint: Use an anonymous function as loop's second argument within this groceryList's function definition._
 
@@ -66,6 +67,7 @@ Example :
 var bestSentence = "woah! i Love javascript!"
 capitalizeFirstLetters(bestSentence); //result : "Woah! I Love Javascript"
 ```
+-
 
 * [ ] create a function named "countVowels" that takes a `string` argument, and returns the number of vowels in the string (whether or not you "include y" is your prerogative).
 
